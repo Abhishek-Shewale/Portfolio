@@ -1,11 +1,11 @@
-import Education from "./components/Education"
-import Footer from "./components/Footer"
-import HeroSection from "./components/HeroSection"
-import Navbar from "./components/Navbar"
-import Project from "./components/Project"
-import Skills from "./components/Skills"
+import Education from "./components/Education";
+import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import Project from "./components/Project";
+import Skills from "./components/Skills";
 
-function page() {
+function Page() {
   return (
     <div className="min-h-screen bg-black overflow-hidden ">
       <div className="dark:bg-black bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.2] relative">
@@ -22,7 +22,7 @@ function page() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }
 
-export default page
+export default Page;
