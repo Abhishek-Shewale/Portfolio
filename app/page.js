@@ -79,23 +79,22 @@ export default function Home() {
             variants={scaleIn}
           >
             <p className="text-gray-300 text-lg leading-relaxed font-inter">
-              As a{" "}
+              Results-driven{" "}
               <span className="font-semibold text-blue-400">
                 Full Stack Engineer
               </span>{" "}
               with{" "}
               <span className="font-semibold underline decoration-blue-400/50">
-                1.9+ years of hands-on experience
+                1.5+ years of hands-on experience
               </span>{" "}
-              I specialize in{" "}
+              delivering scalable web solutions using{" "}
               <span className="italic text-blue-300">
-                MERN Stack Development and AI model optimization
+              Next.js, Node.js, and React
               </span>
-              . My journey in tech is backed by a strong educational foundation
-              in Computer Applications, where I consistently maintained high
-              academic performance. I combine my theoretical knowledge with
-              practical expertise to deliver scalable and efficient web
-              solutions.
+               . Proven track record in optimizing development workflows, implementing AI integrations,
+and enhancing system performance. Demonstrated ability to reduce operational costs by 40% and improve user
+engagement metrics through strategic technology implementations. Adept at collaborating with cross-functional
+teams to deliver high-impact solutions in fast-paced environments
             </p>
           </motion.div>
         </div>
@@ -159,7 +158,7 @@ export default function Home() {
                     </div>
                     <div className="flex items-center gap-2 text-gray-500 italic">
                       <Calendar className="w-4 h-4" />
-                      <p>September 2024 - Present</p>
+                      <p>September 2024 - January 2026</p>
                     </div>
                   </div>
                 </div>
@@ -415,7 +414,7 @@ export default function Home() {
   
   {
     title: "Databases & Cloud Platforms",
-    skills: "Firebase, MongoDB, Oracle, Google Cloud Platform, Vercel, Cloud Functions, Cpanel, Render, Railway",
+    skills: "Firebase(Firestore), MongoDB, Oracle, Google Cloud Platform, Vercel, Cpanel, Render, Railway",
     gradient: "from-blue-500 to-purple-500",
     icon: Database,
   },

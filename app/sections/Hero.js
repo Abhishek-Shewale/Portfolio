@@ -114,7 +114,7 @@ const Hero = () => {
             {/* View Resume Button */}
             <button
               onClick={() => {
-                const fileId = "1tvUuXEVwHE-IhV2fTOKxfow-iEdWhoxN";
+                const fileId = "1nXB9aojnnjG6lCyj9vmgTRHSTgobmcNJ";
                 
                 // Open in Google Drive (view)
                 const viewUrl = `https://drive.google.com/file/d/${fileId}/view?usp=sharing`;
@@ -125,7 +125,6 @@ const Hero = () => {
                 const link = document.createElement("a");
                 link.href = downloadUrl;
                 link.download = "Abhishek_Shewale_Resume.pdf";
-                link.target = "_blank";
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
@@ -149,7 +148,7 @@ const Hero = () => {
               <div className="p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10">
                 <div className="text-sm text-gray-400">Experience</div>
                 <div className="text-xl font-semibold text-white">
-                  1.9+ Years of  experience
+                  1.5+ Years of  experience
                 </div>
               </div>
             </div>
